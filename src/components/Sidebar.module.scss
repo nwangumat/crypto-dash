@@ -1,0 +1,26 @@
+.sidebar {
+    padding: 4rem 1rem 4rem 5rem;
+
+    div {
+        margin-bottom: 6.5rem;
+    }
+}
+
+.navigation {
+    padding: 0;
+}
+
+.list {
+    list-style: none;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.2rem;
+
+    img {
+        width: 1.2rem;
+        margin-right: 1.7rem;
+    }
+}

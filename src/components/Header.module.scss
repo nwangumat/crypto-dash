@@ -1,0 +1,42 @@
+.header {
+    height: 12vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+}
+
+.heading {
+    flex: 0 0 10%;
+    display: flex;
+    flex-direction: column;
+
+    .headingPrimary {
+        font-size: 2.7rem;
+        font-weight: bold;
+    }
+
+    .headingSecondary {
+        font-size: 1.2rem;
+    }
+}
+
+.notifications {
+    flex: 0 0 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .notification {
+        img {
+            width: 1.4rem;
+        }
+    }
+
+    .avatar {
+        img {
+            width: 2.5rem;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.layout {
+    height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    flex: 0 0 12%;
+    background-color: #E9EAF0;
+}
+
+.main {
+    flex: 1;
+}
